@@ -1,14 +1,5 @@
 $(function()
 {
-    $("#logo").mouseenter(function()
-    {
-        $("#logo-info").slideDown();
-    });
-    $("#logo").mouseleave(function()
-    {
-        $("#logo-info").slideUp();
-    });
-    
     $("#raichu").mouseenter(function()
     {
         $("#raichu-info").slideDown();
@@ -36,13 +27,13 @@ $(function()
         $("#giratina-info").slideUp();
     });
 
-    $("#magicarp").mouseenter(function()
+    $("#magikarp").mouseenter(function()
     {
-        $("#magicarp-info").slideDown();
+        $("#magikarp-info").slideDown();
     });
-    $("#magicarp").mouseleave(function()
+    $("#magikarp").mouseleave(function()
     {
-        $("#magicarp-info").slideUp();
+        $("#magikarp-info").slideUp();
     });
 });
 
