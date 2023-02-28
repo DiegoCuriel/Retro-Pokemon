@@ -35,6 +35,18 @@ $(function()
     {
         $("#magikarp-info").slideUp();
     });
+
+    $("#like-btn").click(function()
+    {
+        $.ajax(
+        {
+          url: "",
+          type: "GET"
+        }).done(function()
+        {
+          $("#like-btn").replaceWith("<p>Thank you for your support!</p>");
+        });
+      });
 });
 
 function playAudio()
